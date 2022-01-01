@@ -6,7 +6,7 @@ require_relative 'cats'
 require_relative 'memes'
 
 
-pablo = Discordrb::Commands::CommandBot.new(token: "OTI0MzE2MTUzODk4MjA1MjM2.YccygA.ZuY4NkuCIRwbmAYpkIT-HTLPOAk", prefix: "%")
+pablo = Discordrb::Commands::CommandBot.new(token: "#{your_bot_token}", prefix: "%")
 WEBHOOK_URL = 'https://discord.com/api/webhooks/424070213278105610/yByxDncRvHi02mhKQheviQI2erKkfRRwFcEp0MMBfib1ds6ZHN13xhPZNS2-fJo_ApSw'.freeze
 client = client = Discordrb::Webhooks::Client.new(url: WEBHOOK_URL)
 DOG = Dog.new 
